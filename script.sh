@@ -1,0 +1,1 @@
+current_branch=$(git rev-parse --abbrev-ref HEAD) && git add . && git commit -m \\" commit the latest changes \\" && if [ true ]; then git push || git push -u origin $current_branch ; fi
